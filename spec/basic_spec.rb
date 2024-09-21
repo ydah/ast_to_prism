@@ -2082,7 +2082,9 @@ RSpec.describe "basic test cases return same nodes with prism" do
   end
 
   describe "valias" do
-    xit "tests" do
+    pending "Occur NoMethodError: undefined method '>>' for nil"
+
+    it "tests" do
       test_code("alias $y $x")
     end
   end
